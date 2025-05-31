@@ -23,7 +23,7 @@ const Hero = () => {
                 }}
               >
                 <span>Elevate</span>
-                <span className="bg-gradient-to-r from-green-300 to-green-500 bg-clip-text text-transparent">
+                <span className="block lg:inline bg-gradient-to-r from-green-300 to-green-500 bg-clip-text text-transparent">
                   Health
                 </span>
               </span>
