@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-500 flex items-center justify-center relative overflow-hidden py-20 lg:py-32">
+    <div className="bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-500 flex items-center justify-center relative overflow-hidden py-32">
       {/* Floating background elements */}
       <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-white/10 rounded-full blur-3xl animate-float"></div>
       <div
@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
 
           {/* Feature Pills */}
-          <div className="flex flex-wrap justify-center gap-6 pt-8">
+          <div className="flex flex-wrap justify-center gap-6">
             <div
               className="opacity-0 animate-fade-in-up bg-white/20 backdrop-blur-md rounded-full px-8 py-4 border border-white/30"
               style={{ animationDelay: "0.7s", animationFillMode: "forwards" }}

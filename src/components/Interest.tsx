@@ -43,7 +43,7 @@ const Interest = () => {
 
           <div
             ref={buttonRef}
-            className={`py-8 transition-all duration-600 ${
+            className={`transition-all duration-600 ${
               buttonVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"
             }`}
             style={{ transitionDelay: buttonVisible ? "200ms" : "0ms" }}
@@ -58,7 +58,7 @@ const Interest = () => {
             </button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div
               ref={benefit1Ref}
               className={`flex flex-col items-center space-y-3 transition-all duration-300 ease-out ${
