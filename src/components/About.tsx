@@ -21,7 +21,7 @@ const About = () => {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-white tracking-tight">
+            <h2 className="text-5xl lg:text-6xl font-bold text-white tracking-tight mb-6">
               The Future of Wellness
             </h2>
             <p className="text-xl lg:text-2xl text-white/90 leading-relaxed max-w-4xl mx-auto font-light">
