@@ -93,3 +93,13 @@
 html {
   scroll-behavior: smooth;
 }
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-inter);
+  }
+
+  .font-body {
+    font-family: var(--font-nunito-sans);
+  }
+}

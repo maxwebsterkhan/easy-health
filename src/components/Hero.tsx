@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="space-y-12">
           {/* Main Title */}
           <div>
-            <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-white tracking-tight">
+            <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-white tracking-tight font-heading">
               <span
                 className="block opacity-0 animate-fade-in-up text-6xl lg:text-8xl mb-4"
                 style={{
@@ -87,7 +87,7 @@ const Hero = () => {
             className="opacity-0 animate-fade-in-up"
             style={{ animationDelay: "1.2s", animationFillMode: "forwards" }}
           >
-            <p className="text-xl lg:text-2xl text-white/90 max-w-4xl mx-auto font-light leading-relaxed">
+            <p className="text-xl lg:text-2xl text-white/90 max-w-4xl mx-auto font-light leading-relaxed font-body">
               Our mission is to make health and wellness easy and accessible to
               everyone.
             </p>

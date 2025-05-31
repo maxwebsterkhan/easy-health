@@ -32,10 +32,10 @@ const Interest = () => {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight">
+            <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 tracking-tight font-heading">
               What do you think?
             </h2>
-            <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed">
+            <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed font-body">
               Help us understand if this vision resonates with you. Share your
               thoughts and stay updated on our progress.
             </p>
@@ -50,7 +50,7 @@ const Interest = () => {
           >
             <button
               onClick={handleInterestClick}
-              className="relative bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-500 hover:from-purple-700 hover:via-blue-700 hover:to-cyan-600 text-white font-semibold py-4 px-10 rounded-full text-lg group overflow-hidden transform transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg hover:-translate-y-0.5"
+              className="relative bg-gradient-to-r from-purple-600 via-blue-600 to-cyan-500 hover:from-purple-700 hover:via-blue-700 hover:to-cyan-600 text-white font-semibold py-4 px-10 rounded-full text-lg group overflow-hidden transform transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg hover:-translate-y-0.5 font-heading"
             >
               <span className="relative z-10">Share Your Interest</span>
               <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-cyan-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300 rounded-full"></div>
@@ -76,8 +76,10 @@ const Interest = () => {
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                 <span className="text-green-600 font-bold">1</span>
               </div>
-              <h3 className="font-semibold text-gray-900">Share Feedback</h3>
-              <p className="text-sm text-gray-600 text-center">
+              <h3 className="font-semibold text-gray-900 font-heading">
+                Share Feedback
+              </h3>
+              <p className="text-sm text-gray-600 text-center font-body">
                 Help us understand what matters most to you
               </p>
             </div>
@@ -99,8 +101,10 @@ const Interest = () => {
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
                 <span className="text-blue-600 font-bold">2</span>
               </div>
-              <h3 className="font-semibold text-gray-900">Stay Updated</h3>
-              <p className="text-sm text-gray-600 text-center">
+              <h3 className="font-semibold text-gray-900 font-heading">
+                Stay Updated
+              </h3>
+              <p className="text-sm text-gray-600 text-center font-body">
                 Get updates if we decide to move forward
               </p>
             </div>
@@ -122,10 +126,10 @@ const Interest = () => {
               <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
                 <span className="text-purple-600 font-bold">3</span>
               </div>
-              <h3 className="font-semibold text-gray-900">
+              <h3 className="font-semibold text-gray-900 font-heading">
                 Influence Direction
               </h3>
-              <p className="text-sm text-gray-600 text-center">
+              <p className="text-sm text-gray-600 text-center font-body">
                 Your input could shape what we build
               </p>
             </div>

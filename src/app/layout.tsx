@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-inter",
+});
+
+const nunitoSans = Nunito_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  weight: ["300", "400", "600"],
+  variable: "--font-nunito-sans",
 });
 
 export const metadata: Metadata = {
@@ -20,7 +28,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body
+        className={`${inter.variable} ${nunitoSans.variable} font-sans antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

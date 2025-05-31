@@ -24,7 +24,7 @@ const Features = () => {
               : "opacity-0 translate-y-8"
           }`}
         >
-          <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight">
+          <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6 tracking-tight font-heading">
             Everything you need.
             <span className="block text-gray-700">Nothing you don&apos;t.</span>
           </h2>
@@ -44,7 +44,7 @@ const Features = () => {
               <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-3xl flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl">🥘</span>
               </div>
-              <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
+              <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 font-heading">
                 Chef-Crafted Meals
               </h3>
               <p className="text-lg text-gray-600 leading-relaxed max-w-sm mx-auto">
@@ -67,7 +67,7 @@ const Features = () => {
               <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-3xl flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl">📊</span>
               </div>
-              <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
+              <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 font-heading">
                 Smart Health Tracking
               </h3>
               <p className="text-lg text-gray-600 leading-relaxed max-w-sm mx-auto">
@@ -90,7 +90,7 @@ const Features = () => {
               <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-3xl flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl">🎯</span>
               </div>
-              <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
+              <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 font-heading">
                 Personalized Goals
               </h3>
               <p className="text-lg text-gray-600 leading-relaxed max-w-sm mx-auto">
