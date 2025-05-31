@@ -16,54 +16,43 @@ const Hero = () => {
           <div>
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-white tracking-tight">
               <span
-                className="block opacity-0 animate-fade-in-up"
+                className="block opacity-0 animate-fade-in-up text-6xl lg:text-8xl mb-4"
                 style={{
-                  animationDelay: "0.2s",
+                  animationDelay: "0.1s",
                   animationFillMode: "forwards",
                 }}
               >
-                Revolutionize
-              </span>
-              <span
-                className="block opacity-0 animate-fade-in-up"
-                style={{
-                  animationDelay: "0.4s",
-                  animationFillMode: "forwards",
-                }}
-              >
-                <span>Your </span>
+                <span>Elevate</span>
                 <span className="bg-gradient-to-r from-green-300 to-green-500 bg-clip-text text-transparent">
                   Health
                 </span>
               </span>
               <span
-                className="block opacity-0 animate-fade-in-up"
+                className="block opacity-0 animate-fade-in-up text-3xl lg:text-4xl font-light"
                 style={{
-                  animationDelay: "0.6s",
+                  animationDelay: "0.3s",
                   animationFillMode: "forwards",
                 }}
               >
-                Journey
+                Revolutionize Your
+              </span>
+              <span
+                className="block opacity-0 animate-fade-in-up text-3xl lg:text-4xl font-light"
+                style={{
+                  animationDelay: "0.5s",
+                  animationFillMode: "forwards",
+                }}
+              >
+                Health Journey
               </span>
             </h1>
-          </div>
-
-          {/* Subtitle */}
-          <div
-            className="opacity-0 animate-fade-in-up"
-            style={{ animationDelay: "0.8s", animationFillMode: "forwards" }}
-          >
-            <p className="text-xl lg:text-2xl text-white/90 max-w-4xl mx-auto font-light leading-relaxed">
-              Our mission is to make health and wellness easy and accessible to
-              everyone.
-            </p>
           </div>
 
           {/* Feature Pills */}
           <div className="flex flex-wrap justify-center gap-6 pt-8">
             <div
               className="opacity-0 animate-fade-in-up bg-white/20 backdrop-blur-md rounded-full px-8 py-4 border border-white/30"
-              style={{ animationDelay: "1.0s", animationFillMode: "forwards" }}
+              style={{ animationDelay: "0.7s", animationFillMode: "forwards" }}
             >
               <span className="text-white font-semibold text-lg">
                 🍳 Breakfast
@@ -71,13 +60,13 @@ const Hero = () => {
             </div>
             <div
               className="opacity-0 animate-fade-in-up bg-white/20 backdrop-blur-md rounded-full px-8 py-4 border border-white/30"
-              style={{ animationDelay: "1.1s", animationFillMode: "forwards" }}
+              style={{ animationDelay: "0.8s", animationFillMode: "forwards" }}
             >
               <span className="text-white font-semibold text-lg">🥗 Lunch</span>
             </div>
             <div
               className="opacity-0 animate-fade-in-up bg-white/20 backdrop-blur-md rounded-full px-8 py-4 border border-white/30"
-              style={{ animationDelay: "1.2s", animationFillMode: "forwards" }}
+              style={{ animationDelay: "0.9s", animationFillMode: "forwards" }}
             >
               <span className="text-white font-semibold text-lg">
                 🍽️ Dinner
@@ -85,12 +74,23 @@ const Hero = () => {
             </div>
             <div
               className="opacity-0 animate-fade-in-up bg-white/20 backdrop-blur-md rounded-full px-8 py-4 border border-white/30"
-              style={{ animationDelay: "1.3s", animationFillMode: "forwards" }}
+              style={{ animationDelay: "1.0s", animationFillMode: "forwards" }}
             >
               <span className="text-white font-semibold text-lg">
                 📱 Health Sync
               </span>
             </div>
+          </div>
+
+          {/* Subtitle */}
+          <div
+            className="opacity-0 animate-fade-in-up"
+            style={{ animationDelay: "1.2s", animationFillMode: "forwards" }}
+          >
+            <p className="text-xl lg:text-2xl text-white/90 max-w-4xl mx-auto font-light leading-relaxed">
+              Our mission is to make health and wellness easy and accessible to
+              everyone.
+            </p>
           </div>
         </div>
       </div>

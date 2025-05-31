@@ -16,7 +16,7 @@ const Interest = () => {
     useScrollAnimation({ rootMargin: "0px 0px -80px 0px" });
 
   const handleInterestClick = () => {
-    console.log("User registered interest in Easy Health!");
+    console.log("User registered interest in ElevateHealth!");
     // TODO: Replace with actual interest registration logic
   };
 

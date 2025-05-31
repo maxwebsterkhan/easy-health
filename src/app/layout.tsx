@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Easy Health",
+  title: "ElevateHealth",
   description:
-    "Easy Health is a platform for managing your health and wellness.",
+    "ElevateHealth is a platform for managing your health and wellness.",
 };
 
 export default function RootLayout({
